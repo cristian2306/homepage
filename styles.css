@@ -173,6 +173,13 @@
     .skills__text {
       color: var(--secondary-text-color);
       text-align: justify;
+      
+    }
+
+    .skills_block {
+      column-count: 2;
+      column-gap: 20px;
+      column-rule: 2px solid gray;
     }
 
     Experience and additional info styles
@@ -201,6 +208,12 @@
       text-decoration-line: underline;
       text-align: left;
       margin-bottom: 20px;
+    }
+
+    .company_logo {
+      width: 150px;
+      height: 100px;
+      text-align: right;
     }
 
     .experiences__company-project {
